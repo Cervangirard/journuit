@@ -1,0 +1,23 @@
+Package: journuit
+Title: Package to add dark mode
+Version: 0.0.1
+Authors@R: 
+    person(given = "firstname",
+           family = "lastname",
+           role = c("aut", "cre"),
+           email = "your@email.com")
+Description: Allow dark mode and switch it.
+License: MIT + file LICENSE
+Imports: 
+    bslib,
+    config,
+    glouton (>= 0.0.0.9000),
+    glue,
+    golem (>= 0.3.1),
+    magrittr,
+    shiny (>= 1.6.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Remotes: 
+    ColinFay/glouton
